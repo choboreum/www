@@ -1,0 +1,71 @@
+<?
+	session_start(); 
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);    
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서대문자연사박물관-중앙홀</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->   
+</head>
+
+<body>
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=4; 
+    include "common/sub_nav.html"; 
+?>      
+<!-- 본문콘텐츠영역 -->
+        <article id="content">
+                <div class="title_area">
+                    <div class="line_map">
+                        <span>HOME</span>&gt;<span>전시소개</span>&gt;<strong>중앙홀</strong>
+                    </div>
+                    <h2>중앙홀</h2>
+                    <p>서대문자연사박물관 전시실은 총 3개의 관으로 이루어져 있으며,<br>태초의 자연과 대자연의 역사 등을 만나보실 수 있습니다.</p>
+                </div>
+
+                <div class="content_area">
+                   <div class="mainbox">
+                       <div class="imglist">
+                           <img class="imgs" src="images/content4/hall1.png" alt="1층 중앙홀 지도">
+                       </div>
+                        <div class="list">
+                            <p><i class="fas fa-bone"></i> 중앙홀</p>
+                            <ul class="tabs pics">
+                                <li><a class="tab tab1 pic" href="javascript:void(0);">1. 아크로칸토사우루스</a></li>
+                                <li><a class="tab tab2 pic" href="javascript:void(0);">2. 향고래</a></li>
+                                <li><a class="tab tab3 pic" href="javascript:void(0);">3. 프테라노돈</a></li>
+                                <li><a class="tab tab4 pic" href="javascript:void(0);">4. 투푹수아라</a></li>
+                                <li><a class="tab tab5 pic" href="javascript:void(0);">5. 크시팍티누스</a></li>
+                                <li><a class="tab tab6 pic" href="javascript:void(0);">6. 파키리조두스</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div id="tablist"></div>
+                    
+                </div>     
+
+            
+        </article>
+        
+<? include "../common/sub_foot.html" ?>
+<script src="common/js/tab.js"></script>       
+<script src="js/tab4.js"></script>       
+<script src="js/data4-json.js"></script>       
+</body>
+</html>

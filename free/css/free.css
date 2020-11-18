@@ -1,0 +1,107 @@
+#content h3{height:30px; text-align: center; font-size: 24px; font-weight: 700; }
+input, button, select{outline: none}
+form{overflow: hidden; margin-bottom: 50px}
+
+/*title*/
+#list_top_title,#view_title,#write_form_title {overflow: hidden;padding:5px 0; border-top:solid 2px #333;border-bottom: 1px solid #aaa;font-family: 'Nanum Gothic', sans-serif}
+
+/*button*/
+#page_button {margin-top:20px}
+#page_button i{color: #999}
+#page_button i:hover{color: #333; cursor: pointer}
+#page_num {width:100%;text-align:center; font-size: 16px}
+
+.show,.kinds{border: 1px solid #ddd; border-radius: 3px ; float:left; padding: 5px 7px}
+#button,#view_button,#write_button, #ripple_box3 input{text-align:center;overflow: hidden; float:right}
+#button a,#view_button a,#write_button a,#write_button #wrbtn, #ripple_box3 input{border: 1px solid #ddd; border-radius: 3px; padding: 8px 15px; font-size: 16px}
+#button a:hover,#view_button a:hover,#write_button a:hover,#write_button #wrbtn:hover,.file:hover, #ripple_box3 input:hover{color: #fff; background: rgb(150,180,95); font-weight: 700; letter-spacing: -1px}
+
+/* list css */
+#list_search {height:30px}
+#list_search #list_search1{float:left; font-family: 'Nanum Gothic', sans-serif; width: 180px; text-align: center; padding: 2px 0 5px; font-size: 14px}
+
+#sch {float:right;border:1px solid #ccc;background:#fff;border-radius:3px; width: 350px; padding: 10px 0}
+#sch:after {display:block;visibility:hidden;clear:both;content:""}
+
+#sch select{border:0;margin:0 5px;float:left;border-right:1px solid #ddd;}
+#sch .sch_input{border:0;background-color:transparent;float:left}
+#sch .sch_btn{float:right;background:none;border:0;width:40px;font-size:15px}
+
+#list_top_title {border-top:solid 2px #aaa}
+#list_top_title li {float: left; text-align: center; font-weight: 700}
+#list_top_title #list_title1 {width: 150px}
+#list_top_title #list_title2_1 {width: 150px}
+#list_top_title #list_title2 {width: 450px}
+#list_top_title #list_title3 {width: 150px}
+#list_top_title #list_title4 {width: 200px}
+
+.list_item {height:35px; padding:6px 0; border-bottom:solid 1px #eee; font-family: 'Nanum Gothic', sans-serif}
+.list_item .list_item1{float:left; width:150px; text-align:center; font-size: 16px}
+.list_item .list_item1 span{color: red}
+.list_item .list_item2_1{float: left; width: 150px; text-align: center; font-size: 16px}
+.list_item .list_item2{float:left; width:450px;	text-align:center; font-size: 16px}
+.list_item .list_item3{float:left; width:150px; text-align:center; font-size: 16px}
+.list_item .list_item4{float:left; width:200px;	text-align:center; font-size: 16px}
+
+/* write_form css */
+#write_form_title{margin-bottom: 0}
+
+#write_form,#write_form div{overflow: hidden}
+#write_form #write_row1 {height:45px}
+#write_form #write_row2 {height:45px; clear: both}
+#write_form #write_row3 {clear: both}
+
+.write_line {border-bottom:solid 1px #ccc}
+
+#write_form .col1 {float:left;width:120px;text-align:center;padding:5px; font-weight: 700; ;font-family: 'Nanum Gothic', sans-serif; color: #444}
+#write_form #write_row3 .col1 {height:126px;padding-top:110px}
+
+#write_form .col2 {float:left;margin-left: 8px;margin-top:5px; font-size: 18px}
+#write_form #write_row1 .col2 {float:left;margin-top:6px}
+#write_form #write_row1 .col3 {float:left;margin-top:4px;margin-left:100px}
+
+#write_row2 .col2 input {width:900px;height:25px; border:solid 1px #ccc; font-size: 16px}
+
+#write_row3 .col2 textarea {margin-top:5px; border:solid 1px #ccc; width: 900px; resize: none; outline: none; height: 250px; font-size: 14px; line-height: 1.5em}
+
+#write_button {margin-top:15px}
+#write_button #wrbtn{background: #fff; padding: 7px 15px;font-family: "돋움", Dotum,"굴림",Gulim, sans-serif}
+
+.delete_ok {margin-left: 140px; font-size: 14px}
+
+/* view.php css */
+#view_comment {margin:10px 0 0 10px}
+
+#view_title,#write_form_title {padding: 15px 0 20px; text-align: center}
+#view_title1_1,#view_title1,#write_form_title {font-size: 24px; font-weight: 700}
+#view_title1_1,#view_title2 {clear: both; font-size: 16px; color: #666}
+
+#view_content {min-height:200px;padding:15px 15px 70px;overflow:hidden;line-height:1.5em; border-bottom:dashed 1px #ccc; text-align: center}
+#hit_title {color: #777; margin-bottom: 30px; width: 100%; text-align: right}
+#hit_title i{font-size: 18px}
+
+#view_content span{overflow: hidden;float: right; color: #777; font-size: 16px}
+#view_content span i{font-size: 18px; margin-right: 5px}
+
+#view_button{margin: 50px 0}
+
+/* ripple css */
+#ripple_writer_title {padding-top:10px}
+#ripple_writer_title ul {margin-left:5px; overflow: hidden; position: relative}
+#ripple_writer_title ul li{float: left}
+
+#writer_title1 {margin-left:10px; font-weight:700}
+#writer_title2 {margin-left:20px; font-size: 14px; color: #666}
+#writer_title3 {position: absolute; right: 20px; font-size: 16px; color: #666}
+#writer_title3:hover{font-weight: 700; letter-spacing: -1px}
+
+#ripple_content {padding:10px; margin-left:15px;line-height:1.5em; font-size: 16px}
+
+.hor_line_ripple {border-bottom:solid 1px #efefef}
+
+#ripple_box {padding:8px}
+#ripple_box1 {font-weight: 700; font-size: 20px; font-family: 'Nanum Gothic', sans-serif}
+#ripple_box2 {float:left; margin:5px}
+#ripple_box2 textarea {border:solid 1px #ccc; resize: none; outline: none; width: 950px; height: 90px; font-size: 16px; line-height: 1.5em}
+#ripple_box3 {float:right;margin:30px 5px 0 0}
+#ripple_box3 input{background: #fff}

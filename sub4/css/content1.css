@@ -1,0 +1,47 @@
+#content .content_area ul{overflow: hidden; margin-top: 10px}
+#content .content_area ul li{float: left}
+#content .content_area .conlist{display: none}
+#content .content_area .on1{display: block}
+
+#content .content_area .tabs{overflow: hidden; margin-bottom: 70px; width: 800px; position: relative; left: 50%; margin-left: -400px}
+#content .content_area .tabs li{float: left; width: 200px; text-align: center}
+#content .content_area .tabs li:last-child{margin-right: 0}
+#content .content_area .tabs li a{color: #666; font-size: 20px}
+#content .content_area .tabs li a:hover{color: #333; font-weight: 700; border-bottom: 2px solid #ccc; padding-bottom: 7px}
+#content .content_area .on{color: #333; font-weight: 700; border-bottom: 2px solid #ccc; padding-bottom: 7px}
+
+#content .content_area div{border: 1px solid #ccc; overflow: hidden; padding: 30px; position: relative; margin-top: 100px}
+#content .content_area div:first-child{margin-top: 0}
+#content .content_area div img{float: left; margin-right: 30px}
+#content .content_area div ul li{width: 110px; border: 1px solid #ccc; text-align: center; margin-right: 20px; font-weight: 700; font-size: 16px; font-family: 'Nanum Gothic', sans-serif}
+#content .content_area div ul li:last-child{background: red; color: #fff}
+#content .content_area section{display: none}
+
+#content .content_area section div ul .current2{background: forestgreen}
+
+#content .content_area div dl{overflow: hidden}
+#content .content_area div dt{font-weight: 700; font-size: 20px; margin: 20px 0}
+#content .content_area div dd{position: relative}
+#content .content_area div dd span{margin-right: 30px}
+#content .content_area div dd span::after{content: '';width: 1px; height: 17px; background: #ccc; display: block; position: absolute; top: 10px; left: 88px}
+#content .content_area div a img{width: 60px; height: 60px; position: absolute; top: 90px; right: 30px}
+
+#content .content_area .info{border-bottom: 2px solid #ccc; padding-bottom: 250px; position: relative; display: none}
+#content .content_area .info li{width: 45%; margin-left: 10%; text-align: justify}
+#content .content_area .info li:first-child{margin-left: 0}
+
+#content .content_area .info dt{font-size: 24px; font-weight: 700; margin: 50px 0 30px 0; font-family: 'Nanum Gothic', sans-serif}
+#content .content_area .info dd{margin-left: 20px}
+#content .content_area .info dd::before{content: ''; width: 4px; height: 4px; border-radius: 2px; display: block; background: #333; position: relative; left: -15px; top: 20px}
+#content .content_area .info li:nth-last-child(2) dd::before{display: none}
+#content .content_area .info li:nth-last-child(2) dd:last-child{margin-left: 0}
+
+#content .content_area .info table{width: 99.99%}
+#content .content_area .info th,#content .content_area .info td{border: 1px solid #ccc; padding: 5px 20px}
+#content .content_area .info th{text-align: center; width: 40%; background: #c1c1c1; color: #fff}
+#content .content_area .info td{width: 60%}
+
+#content .content_area .info .apply ul{width: 340px; position: relative; bottom: -90px; left: 60%; overflow: hidden}
+#content .content_area .info .apply li{float: left; width: 140px}
+#content .content_area .info .apply a{display: block; text-align: center; padding: 10px 20px; border: 1px solid #ccc; font-size: 20px; font-family: 'Nanum Gothic', sans-serif; color: #999}
+#content .content_area .info .apply li:hover a{background: rgb(150,180,95); color: #fff; font-weight: 700; letter-spacing: -1px}

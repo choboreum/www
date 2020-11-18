@@ -1,0 +1,103 @@
+<?
+	session_start(); 
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);    
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서대문자연사박물관-정보공개</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->   
+</head>
+
+<body>
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=3; 
+    include "common/sub_nav.html"; 
+?>    
+<!-- 본문콘텐츠영역 -->
+        <article id="content">
+                <div class="title_area">
+                    <div class="line_map">
+                        <span>HOME</span>&gt;<span>소식 / 홍보</span>&gt;<strong>정보공개</strong>
+                    </div>
+                    <h2>정보공개</h2>
+                    <p>서대문자연사박물관의 정보가 들어있는 연보를 만나보세요.</p>
+                </div>
+
+                <div class="content_area">
+                    <div class="top">
+                        <div class="mainimg">
+                            <img class="imgs" src="images/content3/img0.jpg" alt="2019년 연보">
+                        </div>
+                        <p><a href="images/content3/19News.zip" target="_blank" title="pdf파일 다운받기">PDF파일 다운받기</a></p>
+                        <div class="info">
+                        <dl>
+                            <dt><span>2019년</span> 연보</dt>
+                            <dd>1. 일반현황</dd>
+                            <dd>2. 전시</dd>
+                            <dd>3. 표본관리</dd>
+                            <dd>4. 박물관 교육</dd>
+                            <dd>5. 문화행사/ 홍보/ 출판</dd>
+                            <dd>6. 박물관 운영</dd>
+                            <dd>발행처 : 서대문자연사박물관</dd>
+                        </dl></div>
+                    </div>
+                    <div id="list">
+                        <div class="news tabs">
+                        <ul class="tab tab1">
+                            <li><a href="javascript:void(0);"><div><img src="images/content3/img0.jpg" alt="2019년 연보"></div></a></li>
+                            <li class="text">2019년</li>
+                        </ul>
+                        <ul class="tab tab2">
+                            <li><a href="javascript:void(0);"><div><img src="images/content3/img1.jpg" alt="2018년 연보"></div></a></li>
+                            <li class="text">2018년</li>
+                        </ul>
+                        <ul class="tab tab3">
+                            <li><a href="javascript:void(0);"><div><img src="images/content3/img2.jpg" alt="2017년 연보"></div></a></li>
+                            <li class="text">2017년</li>
+                        </ul>
+                        <ul class="tab tab4">
+                            <li><a href="javascript:void(0);"><div><img src="images/content3/img3.jpg" alt="2016년 연보"></div></a></li>
+                            <li class="text">2016년</li>
+                        </ul>
+
+                        <ul class="tab tab5">
+                            <li><a href="javascript:void(0);"><div><img src="images/content3/img4.jpg" alt="2015년 연보"></div></a></li>
+                            <li class="text">2015년</li>                    
+                        </ul>
+                        <ul class="tab tab6">
+                            <li><a href="javascript:void(0);"><div><img src="images/content3/img5.jpg" alt="2014년 연보"></div></a></li>
+                            <li class="text">2014년</li>
+                        </ul>
+                        <ul class="tab tab7">
+                            <li><a href="javascript:void(0);"><div><img src="images/content3/img6.jpg" alt="2013년 연보"></div></a></li>
+                            <li class="text">2013년</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            
+        </article>
+        
+<? include "../common/sub_foot.html" ?> 
+<script src="js/texttab.js"></script>   
+<script src="js/slide_move.js"></script>   
+   
+</body>
+</html>

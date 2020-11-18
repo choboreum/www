@@ -1,0 +1,22 @@
+#content .content_area .top{overflow: hidden; outline: 1px solid #ccc; outline-offset: -1px; position: relative; width: 100%}
+
+#content .content_area .top .mainimg{width: 40%; height: 460px; float: left}
+/*#content .content_area .top .imgs{display: none}*/
+#content .content_area .top img{float: left; margin: 45px 25%; width: 50%; outline: 1px solid #ccc; outline-offset: -1px}
+#content .content_area .top p{width: 220px; padding: 5px 0; text-align: center; background: #eee; color: #666; font-family: 'Nanum Gothic', sans-serif; border-radius: 10px; position: absolute; left: 110px; bottom: 40px}
+#content .content_area .top p:hover{font-weight: 700; color: #333}
+
+#content .content_area .info{float: left; background: #f7f7f7; width: 60%; height: 460px}
+#content .content_area .info dl{position: relative; left: 50%; top: 60px ;margin-left: -100px}
+#content .content_area .info dt{width: 200px; padding: 5px 0; text-align: center; background: rgb(150,180,95); color: #fff; font-size: 20px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; border-radius: 10px; margin-bottom: 30px}
+#content .content_area .info dd:last-child{margin-top: 7px}
+
+#content .content_area .news{width: 100%; overflow: hidden}
+#content .content_area .news ul{margin: 100px 4% 0 0; float: left; width: 22%}
+#content .content_area .news ul:nth-child(4){margin-right: 0}
+#content .content_area .news li:nth-child(2){text-align: right; font-family: 'Nanum Gothic', sans-serif; margin: 10px 50px 0 0}
+#content .content_area .news li:nth-child(2)::before{content: ''; height: 2px; width: 120px; background: #ccc; display: block; position: relative; left: 0; top: 20px}
+#content .content_area .news img{width: 100%; transition: all .3s; outline: 1px solid #ccc; outline-offset: -1px}
+#content .content_area .news a:hover img{box-shadow: 5px 5px 5px 2px #ccc}
+
+#content .content_area .on{display: block}

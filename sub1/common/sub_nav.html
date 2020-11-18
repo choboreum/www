@@ -1,0 +1,30 @@
+<script>
+window.onload=function(){
+    var num = '<?=$_GET['num']?>';
+    var nav1= document.getElementById('nav1'); 
+    var nav2= document.getElementById('nav2');
+    var nav3= document.getElementById('nav3');
+
+    if(num==1){
+      nav1.className='current';
+    }else if(num==2){
+      nav2.className='current';
+    }else if(num==3){
+      nav3.className='current';
+    }
+}
+</script> 
+       
+<!-- 메인비주얼영역 -->   
+        <div class="visual">
+            <img src="common/images/sub_main.jpg" alt="">
+            <h3>기관소개</h3>
+            <p>Seodaemun Museum of Natural History</p>
+        </div>
+        
+<!-- 서브네비영역 -->    
+        <ul class="subnav">
+            <li><a id="nav1" href="sub1_1.html">인사말</a></li>
+            <li><a id="nav2" href="sub1_2.html">박물관소개</a></li>
+            <li><a id="nav3" href="sub1_3.html">연혁</a></li>
+        </ul>

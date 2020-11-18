@@ -1,0 +1,22 @@
+{
+"donate": [
+   { 
+     "title" : "기증대상" ,
+     "text1" : "국내 학문적·예술적·연혁적 또는 기술적으로 보존과 전시할 가치가 있는 각종 자료",
+     "text2" : "동물, 식물, 곤충, 광물, 암석, 화석 등 자연사관련 표본 및 동물 폐사체 등" ,
+     "text3" : "", 
+     "picture1" : "images/content4/egg.png", 
+     "picture2" : "images/content4/fossil.png",
+     "picture3" : "images/content4/pottery.png"
+   },
+   { 
+     "title" : "기증문의",
+     "text1" : "주소 : 서울특별시 서대문구 연희로32길 51 (연희3동 산5-58) 서대문자연사박물관 전시교육팀",
+     "text2" : "전화 : 02-330-8867",
+     "text3" : "팩스 : 02-330-1736",
+     "picture1" : "images/content4/address.png", 
+     "picture2" : "images/content4/phone.png",
+     "picture3" : "images/content4/fax.png"
+   }
+]
+}

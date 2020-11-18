@@ -1,0 +1,7 @@
+#content .content_area .content_box{overflow: hidden; margin-bottom: 100px}
+#content .content_area .content_box p{text-align: justify}
+#content .content_area .box1 div{width: 500px; float: left; margin-right: 100px}
+#content .content_area .box1 img{float: right}
+#content .content_area .box2 div{width: 500px; float: right; margin-left: 100px}
+#content .content_area .box2 p span{display: block; font-size: 22px; font-weight: 700; font-family: 'Nanum Myeongjo', serif; margin-top: 70px; text-align: right}
+#content .content_area .box2 img{float: left}

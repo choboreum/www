@@ -1,0 +1,13 @@
+#content .content_area img{width: 100%; height: 200px; margin-bottom: 150px}
+#content .content_area .text{margin-bottom: 100px}
+#content .content_area .text:nth-of-type(3){position: relative}
+#content .content_area .text:nth-of-type(3)::after{display: block; content: ''; width: 1000px; height: 1px; background: rgb(150,180,95); position: absolute; left:50px; bottom:-100px}
+
+#content .content_area dl dt{font-size: 20px; color: rgb(150,180,95); font-weight: 700; margin-bottom: 20px; padding-left: 25px; position: relative}
+#content .content_area dl dt::before{display: block; content: ''; width: 8px; height: 8px; background: rgb(150,180,95); border-radius: 100%; position: absolute; left: 0; top: 50%; margin-top: -5px; }
+#content .content_area dl dd{text-align: justify}
+
+#content .content_area .group{display: block; width: 746px; height: 651px; background: url(../images/content2/group.jpg); text-indent: -999%; overflow: hidden; margin-left: 177px; position: relative; top: 100px}
+
+#content .content_area div{position: relative; right:-1000px; top:0; opacity: 0; transition: all .8s}
+#content .content_area .boxMove{right:0; opacity: 1}

@@ -1,0 +1,23 @@
+/* 1depth의 공통 */
+
+.visual{width: 2000px; height: 400px; position: relative; left: 50%; top: 130px; margin-left: -1000px; z-index: -1}
+.visual h3,.visual p{font-weight: 400; font-family: 'Nanum Gothic', sans-serif; color: #fff; text-shadow: 3px 3px 2px #666}
+.visual h3{font-size: 40px; position: absolute; left: 45%; top: 125px}
+.visual p{font-size: 20px; position: absolute; left: 40%; top: 195px}
+
+.subnav {width: 1100px; margin: 74px auto 0 auto; overflow: hidden; background: #f7f7f7}
+.subnav li{width: 33.33%; float: left; text-align: center; font-size: 22px; font-family: 'Nanum Gothic', sans-serif}
+.subnav li a{display: block; font-size: 20px; padding: 15px 0; color: #666}
+.subnav li a:hover{background: #fff; color: #333; font-weight: bold; letter-spacing: -1px; border-bottom: 3px rgb(150,180,95) solid}
+.subnav li .current{background: #fff; color: #333; font-weight: bold; letter-spacing: -1px; border-bottom: 3px rgb(150,180,95) solid}
+
+#content{width: 1200px; margin: 0 auto}
+#content .title_area .line_map{float: right; margin: 80px 50px 80px 0; font-size: 16px}
+#content .title_area .line_map span{margin: 0 20px}
+#content .title_area .line_map strong{margin-left: 20px}
+#content .title_area h2{font-size: 50px; clear: both}
+#content .title_area h2::after{content: ''; display: block; width: 100px; height: 4px; background: rgb(150,180,95); margin: 15px 0 20px 550px}
+#content .title_area h2,#content .title_area p{text-align: center}
+#content .title_area p{font-size: 20px; margin-bottom: 150px; font-family: 'Nanum Myeongjo', serif}
+
+#content .content_area{margin: 0 50px 250px 50px; font-size: 18px; line-height: 2em}

@@ -1,0 +1,147 @@
+<?
+	session_start(); 
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);    
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서대문자연사박물관-찾아오시는 길</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=70c6e2f784f7f7da7a5faa1851e71b2a"></script>
+    <script src="../map/js/map2.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->   
+</head>
+
+<body>
+<? include "../common/sub_head.html" ?>
+
+<!-- 메인비주얼영역 -->   
+        <div class="visual">
+            <img src="common/images/sub2_main.jpg" alt="">
+            <h3>이용안내</h3>
+            <p>Seodaemun Museum of Natural History</p>
+        </div>
+        
+<!-- 서브네비영역 -->    
+        <ul class="subnav">
+            <li><a href="sub2_1.html">관람안내</a></li>
+            <li><a href="sub2_2.html">관람도우미</a></li>
+            <li><a  href="sub2_3.html">시설안내</a></li>
+            <li><a class="current" href="sub2_4.html">찾아오시는 길</a></li>
+        </ul>     
+
+<!-- 본문콘텐츠영역 -->
+        <article id="content">
+                <div class="title_area">
+                    <div class="line_map">
+                        <span>HOME</span>&gt;<span>이용안내</span>&gt;<strong>찾아오시는 길</strong>
+                    </div>
+                    <h2>찾아오시는 길</h2>
+
+                </div>
+
+                <div class="content_area">
+                    <div class="infobox">
+                        <p>서대문자연사박물관을 찾아오시는 길을 안내합니다.</p>
+                        <div id="map"></div>
+                    </div>    
+                    <div class="info">
+                        <dl>
+                           <dt>ADDR.</dt>
+                           <dd>서울시 서대문구 연희로32길 51(연희동) 03718</dd>
+                        </dl>
+                          <dl>  
+                           <dt>EMAIL.</dt>
+                           <dd>namuadmin@sdm.go.kr</dd>
+                        </dl>
+                        <dl>
+                           <dt>TEL.</dt>
+                           <dd>02-330-8899</dd>
+                        </dl>
+                        <dl>
+                           <dt>FAX.</dt>
+                           <dd>02-330-1736</dd>
+                        </dl>
+                    </div> 
+
+                    <section class="subway">
+                        <h3>지하철</h3>
+                            <dl>
+                                <dt><img src="images/content4/train2.png" alt="">신촌역(2호선)</dt>
+                                <dd>3, 4번 출구로 나와 서대문03번 마을버스 탑승 후 서대문자연사박물관 정류장에 하차</dd>
+                            </dl>
+                            <dl>
+                                <dt><img src="images/content4/train.png" alt="">홍제역(3호선)</dt>
+                                <dd>3번 출구(무악재방향), 4번 출구(홍은사거리 방향)로 나와 7738(지선버스) 탑승 후 서대문자연사박물관 정류장에 하차</dd>
+                                <dd>* 지하철 연계버스(7738) 이용 시 중앙차선 버스정류장이 아닌 지선버스 정류장으로 가셔야 합니다.</dd>
+                            </dl>
+                    </section>   
+                     
+                    <section class="bus">     
+                        <h3>버스</h3>
+                        <dl>
+                            <dt><img src="images/content4/busblue.png" alt="">간선버스</dt>
+                            <dd>110A, 153번</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="images/content4/busgreen.png" alt="">지선버스</dt>
+                            <dd>7017, 7720, 7738번</dd>
+                        </dl>
+                    </section>
+                    
+                    <section class="parking">
+                        <h3>주차안내</h3>
+                            <table>
+                               <caption class="hidden">주차 요금안내:구분, 기본, 2시간 초과 10분당으로 나타낸 표</caption>
+                                <thead>
+                                   <tr>
+                                        <th scope="col">구분</th>
+                                        <th scope="col" class="line">기본(2시간)</th>
+                                        <th scope="col">2시간 초과 10분당</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">대형(20인승 이상)</th>
+                                        <td class="line">5,000원</td>
+                                        <td>1,000원</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">소형(20인승 이상)</th>
+                                        <td class="line">3,000원</td>
+                                        <td>500원</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">경차(1,000cc 이하)</th>
+                                        <td colspan="2" class="line2">정산금액의 50% 할인</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                            <ul>
+                                <li>주말, 휴일의 경우 오후 12시 30분 이후에는 주차가 어렵습니다.(만차 후 인근 주차장으로 안내합니다.)</li>
+                                <li>주말, 휴일 대형버스는 주차할 수 없습니다.</li>
+                            </ul>
+                        </section>  
+                         
+                    </div>
+  
+        </article>
+        
+<? include "../common/sub_foot.html" ?>
+    
+</body>
+</html>

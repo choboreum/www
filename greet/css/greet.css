@@ -1,0 +1,94 @@
+#content h3{height:30px; text-align: center; font-size: 24px; font-weight: 700; }
+input, button, select{outline: none}
+form{overflow: hidden; margin-bottom: 50px}
+
+/* list css */
+#list_search {height:30px}
+#list_search #list_search1{float:left; font-family: 'Nanum Gothic', sans-serif; width: 180px; text-align: center; padding: 2px 0 5px; font-size: 14px}
+
+#list_top_title,#view_title,#write_form_title {overflow: hidden;padding:5px 0; border-top:solid 2px #333;border-bottom: 1px solid #aaa; margin-bottom:3px;font-family: 'Nanum Gothic', sans-serif}
+
+#list_top_title ul{overflow: hidden}
+#list_top_title li{display:block; text-align: center; float: left}
+
+#list_top_title #list_title1 {width: 100px}
+#list_top_title #list_title2 {width: 550px}
+#list_top_title #list_title3 {width: 200px}
+#list_top_title #list_title4 {width: 150px}
+#list_top_title #list_title5 {width: 100px}
+
+.list_item{height: 100px; border:solid 1px #ccc; font-size: 16px; border-radius: 10px; padding: 30px; position: relative; margin-bottom: 30px}
+.list_item img{position: relative; top: -30px; left: -30px; border-radius: 10px 0 0 10px; width: 160px; height: 160px}
+.list_item .list_item1 a{font-size: 20px; font-weight: 700;font-family: 'Nanum Gothic', sans-serif}
+.list_item .list_item2 ul{color: #777;overflow: hidden; position: absolute; bottom: 25px; left: 195px}
+.list_item .list_item2 ul li{float: left; margin-right: 20px}
+.list_item .list_item2 ul li i{margin-right: 8px}
+
+
+/*view=>id='list_content'의 addclass부분*/
+.view2,.list_item{overflow: hidden}
+.view2 .list_item{float: left; width:338px; height: 250px; padding: 0; margin-right: 40px}
+.view2 .list_item:nth-of-type(3n){margin-right: 0}
+.view2 .list_item div img{top: 0; left: 0; width: 100%; border-radius: 10px 10px 0 0; padding-bottom: 10px}
+.view2 .list_item div span{padding-left: 15px;display: block; overflow: hidden;word-wrap:break-word; text-overflow: ellipsis;white-space: nowrap; width: 300px}
+.view2 .list_item div ul{position: relative; bottom: 0; left: 15px; font-size: 14px}
+.view2 .list_item div ul li i{margin-right: 5px}
+
+.list_view{overflow: hidden; float: right; margin-right: 15px}
+.list_view li{float: left; margin-right: 15px}
+.list_view li a{font-size: 20px; color: #666}
+.list_view li a:hover{color: #333}
+
+#sch {float:left;border:1px solid #ccc;background:#fff;border-radius:3px; width: 330px; padding: 10px 0}
+#sch:after {display:block;visibility:hidden;clear:both;content:""}
+
+#sch select{border:0;margin:0 5px;float:left;border-right:1px solid #ddd;}
+#sch .sch_input{border:0;background-color:transparent;float:left}
+#sch .sch_btn{float:right;background:none;border:0;width:40px;font-size:15px}
+
+#page_button {margin-top:20px; clear: both; padding-top: 50px}
+#page_button i{color: #999}
+#page_button i:hover{color: #333; cursor: pointer}
+#page_num {width:100%;text-align:center; font-size: 16px}
+
+.show{border: 1px solid #ddd; border-radius: 3px ; float:right; padding: 5px 7px}
+#button,#view_button,#write_button{text-align:center;overflow: hidden; float:right}
+#button a,#view_button a,#write_button a,#write_button #wrbtn{border: 1px solid #ddd; border-radius: 3px; padding: 8px 15px; font-size: 16px}
+#button a:hover,#view_button a:hover,#write_button a:hover,#write_button #wrbtn:hover,.file:hover{color: #fff; background: rgb(150,180,95); font-weight: 700; letter-spacing: -1px}
+
+/* write_form css */
+#col2 #write_form_title{margin-bottom: 0}
+
+#write_form,#write_form div{overflow: hidden}
+#write_form #write_row1 {height:45px}
+#write_form #write_row2 {height:45px; clear: both}
+#write_form #write_row3 {clear: both}
+
+.write_line {border-bottom:solid 1px #ccc}
+
+#write_form .col1 {float:left;width:120px;text-align:center;padding:5px; font-weight: 700; ;font-family: 'Nanum Gothic', sans-serif; color: #444}
+#write_form #write_row3 .col1 {height:126px;padding-top:110px}
+
+#write_form .col2 {float:left;margin-left: 8px;margin-top:5px; font-size: 18px}
+#write_form #write_row1 .col2 {float:left;margin-top:6px}
+#write_form #write_row1 .col3 {float:left;margin-top:4px;margin-left:100px}
+
+#write_row2 .col2 input {width:900px;height:25px; border:solid 1px #ccc; font-size: 16px}
+
+#write_row3 .col2 textarea {margin-top:5px; border:solid 1px #ccc; width: 900px; resize: none; outline: none; height: 250px; font-size: 14px; line-height: 1.5em}
+
+#write_button {margin-top:15px}
+#write_button #wrbtn{background: #fff; padding: 7px 15px;font-family: "돋움", Dotum,"굴림",Gulim, sans-serif}
+
+.delete_ok {margin-left: 140px; font-size: 14px}
+
+/* view.php css */
+#view_title,#write_form_title {padding: 15px 0 20px; text-align: center}
+#view_title1,#write_form_title {font-size: 24px; font-weight: 700; margin-bottom: 10px}
+#view_title2 {clear: both; font-size: 16px; color: #666}
+
+#view_content {min-height:200px;padding:15px 15px 70px;overflow:hidden;line-height:1.5em; border-bottom:solid 1px #ccc; text-align: center}
+#hit_title {color: #777; margin-bottom: 30px; width: 100%; text-align: right}
+#hit_title i{font-size: 18px}
+
+#view_button{margin: 50px 0}

@@ -1,0 +1,34 @@
+<script>
+window.onload=function(){
+    var num = '<?=$_GET['num']?>';
+    var nav1= document.getElementById('nav1'); 
+    var nav2= document.getElementById('nav2');
+    var nav3= document.getElementById('nav3');
+    var nav4= document.getElementById('nav4');
+
+    if(num==1){
+      nav1.className='current';
+    }else if(num==2){
+      nav2.className='current';
+    }else if(num==3){
+      nav3.className='current';
+    }else if(num==4){
+      nav4.className='current';
+    }
+}
+</script> 
+
+<!-- 메인비주얼영역 -->   
+        <div class="visual">
+            <img src="common/images/sub3_main.jpg" alt="">
+            <h3>전시소개</h3>
+            <p>Seodaemun Museum of Natural History</p>
+        </div>
+        
+<!-- 서브네비영역 -->    
+        <ul class="subnav">
+            <li><a id="nav1" href="sub3_1.html">지구환경관</a></li>
+            <li><a id="nav2" href="sub3_2.html">생명진화관</a></li>
+            <li><a id="nav3" href="sub3_3.html">인간과 자연관</a></li>
+            <li><a id="nav4" href="sub3_4.html">중앙홀</a></li>
+        </ul>

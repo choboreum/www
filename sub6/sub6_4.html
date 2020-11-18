@@ -1,0 +1,55 @@
+<?
+	session_start(); 
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);    
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서대문자연사박물관-표본기증</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->   
+</head>
+
+<body>
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=4; 
+    include "common/sub_nav.html"; 
+?>          
+<!-- 본문콘텐츠영역 -->
+        <article id="content">
+                <div class="title_area">
+                    <div class="line_map">
+                        <span>HOME</span>&gt;<span>커뮤니티</span>&gt;<strong>표본기증</strong>
+                    </div>
+                    <h2>표본기증</h2>
+                    <p>서대문자연사박물관에서는 자연사관련 표본 기증을 받고 있습니다.</p>
+                </div>
+
+                <div class="content_area">
+                   <div class="info">
+                    <img src="images/content4/donate.jpg" alt="">
+                    <div><p>서대문자연사박물관은 서대문구에서 건립하고 운영하고 있는 수도권을 대표하는 종합자연사박물관으로서 동물, 식물, 곤충, 암석, 화석 및 공룡 등의 다양한 표본을 수집하여 연구, 전시 및 교육에 활용하고 있으며 여러분들의 참여를 통해 항상 시민과 함께 호흡하는 박물관이 되고자 표본 기증을 받고 있습니다.</p>
+                    <p>여러분들의 소중한 표본을 박물관에 기증하여 주시면 박물관의 전시, 연구 및 교육프로그램에 활용될 수 있을 것이며, 상설전시 및 특별기획전에 전시될 경우 기증자를 표기하여 전시하게 됩니다. 또한 기증증서를 발행하여 드리고 박물관 중앙홀에 설치된 명판에 기록하여 드립니다. 표본 기증을 통하여 여러분의 소중한 표본이 많은 관람객에게 소개될 기회가 되었으면 합니다.</p></div>
+                   </div>    
+                    <div id="donate"></div>  
+            </div>
+            
+        </article>
+        
+<? include "../common/sub_foot.html" ?>
+<script src="js/data4-json.js"></script> 
+</body>
+</html>

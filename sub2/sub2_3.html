@@ -1,0 +1,230 @@
+<?
+	session_start(); 
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);    
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서대문자연사박물관-시설안내</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->   
+</head>
+
+<body>
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=3; 
+    include "common/sub_nav.html"; 
+?>       
+ 
+<!-- 본문콘텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>HOME</span>&gt;<span>이용안내</span>&gt;<strong>시설안내</strong>
+                </div>
+                <h2>시설안내</h2>
+
+            </div>
+
+            <div class="content_area">
+               <ul class="tabs">
+                    <li><a class="tab tab1" href="javascript:void(0);">우주여행관</a></li>
+                    <li><a class="tab tab2" href="javascript:void(0);">시청각실</a></li>
+                    <li><a class="tab tab3" href="javascript:void(0);">자연사도서관</a></li>
+                </ul>
+                
+               <section class="space contlist">
+               <h3 class="hidden">우주여행관</h3>
+               <img src="images/content3/polarbear.jpg" alt="우주여행관에서 진행하는 polaris영화 포스터 사진">
+               <div class="info">
+                   <dl>
+                       <dt>POLAIS</dt>
+                       <dd>" 북극곰과 펭귄이 함께 떠나는 태양계 여행 "</dd>
+                       <dd>남극에서 여행 온 펭귄 '제임스'와 유머러스한 북극곰 '불라디미르'는 극지방에서는 왜 오랜 시간 해가 뜨지 않는지에 대해 의문을 품습니다. 두 친구는 이 현상이 왜 일어나는지를 알기 위해 화성과 토성을 관측하지만, 새로운 의문만 더 늘어날 뿐입니다. 그래서 그들은 다른 행성을 직접 확인하기 위해 우주로 모험을 떠납니다.</dd>
+                   </dl>
+                </div>   
+                <div class="remark">    
+                  <div>           
+                   <dl>
+                       <dt>이용료</dt>
+                       <dd>일반 : 1,000원</dd>
+                       <dd>5세~19세, 65세 이상 : 1,000원</dd>
+                       <dd>국가유공자, 장애인, 영유아 : 무료 <br><span>* 국가유공자 및 장애인 입장시 신분증 제시</span></dd>
+                   </dl></div> 
+                   <div>
+                   <dl>
+                       <dt>비고사항</dt>
+                       <dd>16시(6회차)까지 운영</dd>
+                       <dd>1회당 16명 입장가능</dd>
+                       <dd>장애정도가 심한 장애인의 경우에는 동행하는<br>보호자 1명 포함하여 무료관람 가능합니다.</dd>
+                   </dl></div>
+                </div>   
+                <table>
+                    <caption class="hidden">우주여행관 상영시간표</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">1회</th>
+                            <th scope="col">2회</th>
+                            <th scope="col">3회</th>
+                            <th scope="col">4회</th>
+                            <th scope="col">5회</th>
+                            <th scope="col">6회</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10:00</td>
+                            <td>11:00</td>
+                            <td>13:00</td>
+                            <td>14:00</td>
+                            <td>15:00</td>
+                            <td>16:00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="6">상영시간 : 25분</td>
+                        </tr>
+                    </tbody>
+                </table>
+               </section>
+
+               <section class="movie contlist">
+               <h3 class="hidden">시청각실</h3>
+               <img src="images/content3/movie.jpg" alt="시청각실3D영화사진">
+               <div class="info">
+                   <dl>
+                       <dt>3D 영화</dt>
+                       <dd>" 딩키 "</dd>
+                       <dd>중생대 백악기 초식공룡인 아파토사우루스의 아기공룡 '딩키'는 엄마와 헤어져 길을 잃고 헤매다 티라노사우르스의 공격을 받고 위험에 처하게 됩니다. 과연 아기공룡 '딩키'는 엄마공룡을 잘 만날 수 있을까요?</dd>
+                   </dl>
+                </div>   
+                <div class="remark">    
+                  <div>           
+                   <dl>
+                       <dt>상영안내</dt>
+                       <dd>이용료 : 무료</dd>
+                       <dd>상영시간 : 15분</dd>
+                       <dd>운영시간 : 10:00~17:00</dd>
+                   </dl></div> 
+                   <div>
+                    <dl>
+                       <dt>시설소개</dt>
+                       <dd>60석 규모의 시청각실에서는<br>매 시간 20분 간격으로<br>입체영화를 무료로 상영합니다.</dd>
+                    </dl></div>
+                </div>   
+                <table>
+                    <caption class="hidden">시청각실 상영시간표</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">구분</th>
+                            <th scope="col" colspan="6">상영시간</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">오전(AM)</th>
+                            <td>10:00</td>
+                            <td>10:20</td>
+                            <td>10:40</td>
+                            <td>11:00</td>
+                            <td>11:20</td>
+                            <td>11:40</td>
+                        </tr>
+                        <tr>    
+                            <th scope="row" rowspan="3">오후(PM)</th>  
+                            <td>12:00</td>
+                            <td>12:20</td>
+                            <td>12:40</td>
+                            <td>13:00</td>
+                            <td>13:20</td>
+                            <td>13:40</td>
+                        </tr>
+                        <tr>       
+                            <td>14:00</td>
+                            <td>14:20</td>
+                            <td>14:40</td>
+                            <td>15:00</td>
+                            <td>15:20</td>
+                            <td>15:40</td>
+                        </tr>
+                        <tr>       
+                            <td>16:00</td>
+                            <td>16:20</td>
+                            <td>16:40</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+               </section>
+
+               <section class="library contlist">
+               <h3 class="hidden">자연사도서관</h3>
+               <div class="main">
+                   <ul>
+                       <li><img class="imgs imgs1" src="images/content3/library.jpg" alt="자연사도서관내부사진1 확대사진"></li>
+                       <li><img class="imgs imgs2"  src="images/content3/library1.jpg" alt="자연사도서관내부사진2 확대사진"></li>
+                       <li><img class="imgs imgs3"  src="images/content3/library2.jpg" alt="자연사도서관내부사진3 확대사진"></li>
+                   </ul>
+               </div>            
+               <div class="imgbox">
+                   <span class="img img1" ><img src="images/content3/library-1.jpg" alt="자연사도서관내부사진1"></span>
+                   <span class="img img2"><img src="images/content3/library1-1.jpg" alt="자연사도서관내부사진2"></span>
+                   <span class="img img3"><img src="images/content3/library2-1.jpg" alt="자연사도서관내부사진3"></span>
+               </div>
+               
+               <div class="info">
+                   <dl>
+                       <dt>자연사도서관</dt>
+                       <dd>자연사도서관은 이용자에게 좋은 과학지식과 책을 읽는 즐거움을 드리고자 자연사 관련 도서, 과학교양도서, 일반도서 등의 다양한 서적을 수집하여 제공하고 있습니다.</dd>
+                   </dl>
+                </div>   
+                <div class="remark">    
+                  <div>           
+                   <dl>
+                       <dt>이용안내</dt>
+                       <dd>이용료 : 무료</dd>
+                       <dd>이용시간 : 10:00~17:00</dd>
+                   </dl></div> 
+                   <div>
+                    <dl>
+                       <dt>소장자료</dt>
+                       <dd>과학도서, 일반도서, 교양도서, 어린이 동화</dd>
+                       <dd>과학잡지, 도감, 백과사전, 박물관 도록</dd>
+                    </dl></div>
+                </div>   
+                <dl class="caution">
+                   <dt>이용시 주의사항</dt>
+                    <dd>가방, 쇼핑백 등의 개인소지품은 물품보관함에 보관 후 입장할 수 있습니다.</dd>
+                    <dd>도서관에 음식물 또는 음료수를 소지하고 입장할 수 없습니다.</dd>
+                    <dd>어린이를 동반한 부모님께서는 다른 관람객의 독서에 방해가 되지 않도록 지도하여 주시기 바랍니다.</dd>
+                    <dd>도서는 도서관내에서는 자유롭게 열람할 수 있으나, 외부로의 반출 또는 대출은 불가합니다.</dd>
+                    <dd>평일에 한하여 무료 개방하고 있습니다.</dd>
+                    <dd>단체관람객의 기타 활동 장소로 이용하실 수 있습니다.</dd>
+                </dl>
+               </section>
+            </div> 
+
+            
+        </article>
+        
+        
+<? include "../common/sub_foot.html" ?>
+<script src="js/tab.js"></script>
+<script src="js/phototab.js"></script>
+
+</body>
+</html>

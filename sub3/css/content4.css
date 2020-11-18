@@ -1,0 +1,16 @@
+#content .content_area .imglist{height: 455.47px}
+#content .content_area .mainbox img{float: left; padding: 51px 100px; width: 600px; outline: 1px solid #ccc; outline-offset: -1px}
+#content .content_area .list{overflow: hidden; width: 200px; float: right; background: rgba(150,180,95,.9); padding: 50px 50px 120px 50px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #fff; border-radius: 0 30px 0 0}
+#content .content_area .contlist:first-child{display: block}
+#content .content_area .contlist .arrow{position: relative}
+#content .content_area .contlist .arrow li{position: absolute}
+#content .content_area .contlist .arrow li i{color: #ccc; font-size: 30px}
+#content .content_area .contlist .arrow li:first-of-type{left: 0; top: 170px}
+#content .content_area .contlist .arrow li:last-of-type{right: 0; top: 170px}
+
+#content .content_area .contlist .imgbox{margin: 50px 0 0 68px; overflow: hidden}
+#content .content_area .contlist .imgbox img{float: left; margin-right: 50px; width: 287px; border-radius: 15px}
+
+#content .content_area .contlist .imgtext{position: relative}
+#content .content_area .contlist .imgtext li{width: 287px; height: 50px; background: rgba(0,0,0,.5); border-radius: 0 0 15px 15px; position: absolute; top: -50px; color: #fff; font-weight: 700; text-align: center; padding-top: 7px}
+#content .content_area .contlist .imgtext li:nth-of-type(1){left: 0}

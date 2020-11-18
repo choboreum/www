@@ -1,0 +1,84 @@
+<?
+	session_start(); 
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);    
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서대문자연사박물관-인간과 자연관</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->   
+</head>
+
+<body>
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=3; 
+    include "common/sub_nav.html"; 
+?>      
+<!-- 본문콘텐츠영역 -->
+        <article id="content">
+                <div class="title_area">
+                    <div class="line_map">
+                        <span>HOME</span>&gt;<span>전시소개</span>&gt;<strong>인간과 자연관</strong>
+                    </div>
+                    <h2>인간과 자연관</h2>
+                    <p>서대문자연사박물관 전시실은 총 3개의 관으로 이루어져 있으며,<br>태초의 자연과 대자연의 역사 등을 만나보실 수 있습니다.</p>
+                </div>
+
+                <div class="content_area">
+                   <div class="mainbox">
+                       <div class="imglist">
+                           <img class="imgs" src="images/content3/nature1.png" alt="1층 인간과 자연관 지도">
+                       </div>
+                        <div class="list">
+                            <p><i class="fas fa-leaf"></i> 인간과자연관</p>
+                            <ul class="tabs pics">
+                                <li><a class="tab tab1 pic" href="javascript:void(0);">1. 신음하는 자연</a></li>
+                                <li><a class="tab tab2 pic" href="javascript:void(0);">2. 자연의혜택</a></li>
+                                <li><a class="tab tab3 pic" href="javascript:void(0);">3. 사라져가는 생명</a></li>
+                                <li><a class="tab tab4 pic" href="javascript:void(0);">4. 민물고기</a></li>
+                                <li><a class="tab tab5 pic" href="javascript:void(0);">5. 우리의 한강</a></li>
+                                <li><a class="tab tab6 pic" href="javascript:void(0);">6. 한국의 산림 상태</a></li>
+                                <li><a class="tab tab7 pic" href="javascript:void(0);">7. 곤충의 다양성</a></li>
+                                <li><a class="tab tab8 pic" href="javascript:void(0);">8. 한국의 멸종위기 야생식물</a></li>
+                                <li><a class="tab tab9 pic" href="javascript:void(0);">9. 살아있는 생명체</a></li>
+                                <li><a class="tab tab10 pic" href="javascript:void(0);">10. 식물의 진화</a></li>
+                                <li><a class="tab tab11 pic" href="javascript:void(0);">11. 재미있는 이름을 가진 식물</a></li>
+                                <li><a class="tab tab12 pic" href="javascript:void(0);">12. 참나무의 세계</a></li>
+                                <li><a class="tab tab13 pic" href="javascript:void(0);">13. 속씨 식물의 다양성</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <section class="contlist">
+                        <h3>신음하는 자연</h3>
+                        <p>무책임한 자연 파괴로 생태계가 파괴되고 있습니다. 산과 강, 바다가 오염되고 파괴되면 우리에게 어떤 영향을 미칠지 고민해 봅시다.</p>     
+                        <iframe width="560" height="315" title="신음하는 자연" src="https://www.youtube.com/embed/3mH9mgY_zCw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                    
+                    <div id="tablist"></div>
+
+                </div>     
+
+            
+        </article>
+        
+<? include "../common/sub_foot.html" ?>
+<script src="common/js/tab.js"></script>       
+<script src="js/tab3.js"></script>       
+<script src="js/data3-json.js"></script>       
+</body>
+</html>

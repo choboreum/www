@@ -1,0 +1,23 @@
+#content .content_area ul{overflow: hidden; margin-bottom: 130px; width: 400px; position: relative; left: 50%; margin-left: -200px}
+#content .content_area ul li{float: left; width: 200px; text-align: center}
+#content .content_area ul li:last-child{margin-right: 0}
+#content .content_area ul li a{color: #666; font-size: 20px}
+#content .content_area ul li a:hover{color: #333; font-weight: 700; border-bottom: 2px solid #ccc; padding-bottom: 7px}
+#content .content_area ul .on{color: #333; font-weight: 700; border-bottom: 2px solid #ccc; padding-bottom: 7px}
+
+#content .content_area section{overflow: hidden; margin-bottom: 150px}
+#content .content_area img{width: 350px;}
+#content .content_area img:first-child{ float: left; margin-right: 100px}
+#content .content_area img:last-child{float: right; margin-left: 100px}
+
+#content .content_area h3,#content .content_area p{text-align: justify; width: 650px; float: left}
+#content .content_area h3{border-top: 3px solid #999; border-bottom: 1px solid #ccc; font-size: 26px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; padding: 30px 0}
+#content .content_area p{margin-top: 20px}
+
+#content .content_area dl{clear: both; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 30px 50px}
+#content .content_area dt{font-size: 22px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin: 20px 0 10px 0}
+#content .content_area dd{margin-left: 50px}
+#content .content_area dd::before{content: ''; width: 4px; height: 4px; border-radius: 2px; display: block; background: #333; position: relative; left: -15px; top: 20px}
+
+#content .content_area .child{margin-top: 150px; height: 100%; position: relative}
+#content .content_area .child img{position: absolute; right: 0; top: 0; margin-left: 100px}

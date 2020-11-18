@@ -1,0 +1,39 @@
+body{background-color: #f5f5ee; margin: 80px auto 0 auto}
+#content{width: 640px; margin: 0 auto}
+.loginWrapper{margin: 150px 0}
+
+.logo2{display: block; width: 180px; height: 167px; background: url(../../common/images/logo.png) no-repeat; text-indent: -999%; margin: 0 0 50px -90px; position: relative; top: 0; left: 50%}
+
+input, select{padding: 5px; border-radius: 2px; font-size: 1.2em; border: 0; background: #eed; outline: none; width: 633px}
+
+.info{padding: 0 0 20px 10px; color: #777}
+.info i{margin-right: 10px}
+
+.joinBox div{margin-bottom: 15px}
+.joinBox input{height: 50px; padding-left: 30px}
+.joinBox .nameBox{float: left}
+.joinBox .nameBox1{float: left; position: relative; left: 20px}
+.idBox{position: relative}
+#loadtext{position: absolute; top: 10px; right: 25px; font-size: 12px; }
+.idBox input[type="button"] { padding-left: 0px; margin-left: 10px; width: 188px; background-color: #eed; color: #333}
+
+.pwBox .mb10{margin-bottom: 15px}
+.pwBox .pwBg1{background: #eed url(../../common/images/login_pw.png) right 30px center no-repeat}
+.pwBox .pwBg2{background: #eed url(../../common/images/login_pwok.png) right 30px center no-repeat}
+
+.nameBox input{width: 290px}
+#loadtext2 { position: absolute; top: 10px; right: 25px; font-size: 12px; }
+
+.genLb {display: inline-block; width: 20px; height: 20px; border: 0px; border-radius: 15px; background-color: #e5e5e5; cursor: pointer; margin: 29px 0; }
+.genTxt {font-size: 20px; line-height: 20px; margin: 0 20px 0 8px; color: #777}
+.telBox {clear: both}
+.telBox select {width: 150px; border: 0px; font-size: 18px; color: #777; height: 60px}
+.telBox input {width: 200px}
+.mailBox input {width: 290px}
+
+.subMit{margin-top: 30px; padding-bottom: 100px}
+.subMit input,.subMit .gomain{ padding-left: 0px; width: 680px; height: 90px; font-size: 18px; font-weight: 700; cursor: pointer; display: block}
+.subMit .gomain{ background: url(../../common/images/login_btn_r.png) no-repeat; text-align: center}
+.subMit .gomain a{color: #fff; font-family: 'Nanum Gothic', sans-serif; display: block; padding-top: 30px}
+.subMit input[type="button"] { color: #fff; background: url(../../common/images/login_btn_l.png) no-repeat; }
+.subMit input[type="button"],.subMit .gomain{ background-size: 680px 100%}

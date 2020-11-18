@@ -1,0 +1,124 @@
+{
+"list": [
+   { 
+     "title" : "자연의 혜택" ,
+     "text1" : "생태계는 생산자의 역할을 하는 식물과 소비자의 역할을 하는 동물, 그리고 분해의 역할을 하는 미생물이 각자 자신의 위치에서 적절하게 조화를 이루고 있습니다. 생산자인 식물은 태양에너지를 가지고 많은 생산물들을 만들어내며 이것들을 동물이 이용하는데, 인간 역시 식물의 생산물을 생활의 여러 분야에서 이용하고 있습니다. 우리 주변에 있는 어떤 것들이 자연으로부터 얻어지는 것인지 알아봅시다.",
+     "picture1" : "images/content3/nature2-1.jpg", 
+     "picture2" : "images/content3/nature2-2.jpg",
+     "picture3" : "images/content3/nature2-3.jpg",
+     "subject1" : "농사",
+     "subject2" : "피톤치트",
+     "subject3" : "피톤치트"
+   },
+   { 
+     "title" : "사라져가는 생명" ,
+     "text1" : "생태계의 균형은 각 생명체들이 자신의 위치에서 인간의 간섭 없이 살아갈 때 유지됩니다. 그 균형이 깨어지면 자연의 한 구성요소인 인간 역시 삶의 균형이 깨어지게 되고 생존에 위협을 받게 됩니다. 우리나라 자연생태계에서 갈수록 보기 어려운 호랑이, 장수하늘소, 구렁이, 독수리, 매화마름, 수달 등을 패널과 영상자료를 통해 살펴봄으로써 인간의 무분별한 활동이 얼마나 많은 생물의 생존을 위협하는지 느낄 수 있습니다. 이들과 함께 살 수 있기 위해 우리가 할 일이 무엇인지 생각해 봅시다.",
+     "picture1" : "images/content3/nature3-1.jpg", 
+     "picture2" : "images/content3/nature3-2.jpg",
+     "picture3" : "images/content3/nature3-3.jpg",
+     "subject1" : "팬더",
+     "subject2" : "수달",
+     "subject3" : "한국호랑이"
+   },
+    { 
+     "title" : "민물고기" ,
+     "text1" : "물고기(담수어)는 물속에 소금기가 없거나 소금의 농도가 매우 낮은 민물에 사는 물고기를 뜻합니다.민물고기 중에는 민물과 바닷물이 합쳐지는 강하구의 기수역에 살거나, 민물과 바닷물을 오가며 생활하는 물고기도 있습니다. 평생동안 민물에만 사는 물고기를 1차 담수어, 민물에도 살고 바닷물에도 적응하는 물고기를 2차 담수어라고 합니다.",
+     "picture1" : "images/content3/nature4-1.jpg", 
+     "picture2" : "images/content3/nature4-2.jpg",
+     "picture3" : "images/content3/nature4-3.jpg",
+     "subject1" : "민물고기",
+     "subject2" : "민물고기",
+     "subject3" : "민물고기"
+   },
+    { 
+     "title" : "우리의 한강" ,
+     "text1" : "한국 중부지역의 대표적인 강인 한강은 남한의 태백산에서 발원한 남한강과 북한의 금강산에서 발원한 북한강이 만나 서해로 흘러드는 강입니다. 한강의 상류, 중류, 하류에 서식하는 다양한 물고기를 만나 볼 수 있습니다.",
+     "picture1" : "images/content3/nature5-1.jpg", 
+     "picture2" : "images/content3/nature5-2.jpg",
+     "picture3" : "images/content3/nature5-3.jpg",
+     "subject1" : "잉어",
+     "subject2" : "누치",
+     "subject3" : "붕어"
+   },
+    { 
+     "title" : "한국의 산림 생태" ,
+     "text1" : "70% 이상이 산악지형으로 되어있는 한반도는 면적이 좁음에도 불구하고 온대지방 국가로서는 매우 높은 생물의 다양성을 보여주고 있습니다. 우리나라의 전형적인 산림생태를 디오라마로 만나보실 수 있습니다.",
+     "picture1" : "images/content3/nature6-1.jpg", 
+     "picture2" : "images/content3/nature6-2.jpg",
+     "picture3" : "images/content3/nature6-3.jpg",
+     "subject1" : "한국 숲",
+     "subject2" : "한국 공원",
+     "subject3" : "한국 공원"
+   },
+    { 
+     "title" : "곤충의 다양성" ,
+     "text1" : "지구상에서 가장 아름다운 색과 생존전략을 위한 앞, 뒷 모습의 다른점과 빛의 방향에 따라 색이 바뀌는 다양한 곤충을 관람할 수 있습니다.",
+     "picture1" : "images/content3/nature7-1.jpg", 
+     "picture2" : "images/content3/nature7-2.jpg",
+     "picture3" : "images/content3/nature7-3.jpg",
+     "subject1" : "나방",
+     "subject2" : "야생 나비",
+     "subject3" : "야생 나비"
+   },
+    { 
+     "title" : "한국의 멸종위기 야생식물" ,
+     "text1" : "우리나라에서 멸종위기에 처한 야생식물 중 깽깽이풀, 죽백란, 광릉복주머니란, 솜다리, 노랑붓꽃 5종을 모형으로 만날 수 있습니다.",
+     "picture1" : "images/content3/nature8-1.jpg", 
+     "picture2" : "images/content3/nature8-2.jpg",
+     "picture3" : "images/content3/nature8-3.jpg",
+     "subject1" : "깽깽이풀",
+     "subject2" : "광릉요강꽃",
+     "subject3" : "노랑붓꽃"
+   },
+    { 
+     "title" : "살아있는 생명체" ,
+     "text1" : "우리나라 강가 근처에 살고 있는 말똥게, 청개구리, 산 속에 살고 있는 아무르장지뱀, 장수풍뎅이 및 누룩뱀 등을 관찰할 수 있는 코너입니다.",
+     "picture1" : "images/content3/nature9-1.jpg", 
+     "picture2" : "images/content3/nature9-2.jpg",
+     "picture3" : "images/content3/nature9-3.jpg",
+     "subject1" : "개구리",
+     "subject2" : "아무르장지뱀",
+     "subject3" : "누룩뱀"
+   },
+    { 
+     "title" : "식물의 진화" ,
+     "text1" : "식물의 기원은 모든 다른 생물들과 마찬가지로 원시바다에서 시작되었다고 할 수 있습니다. 즉, 물 속에 사는 원생생물인 녹조류에서 발달하였다고 봅니다. 지구환경이 건조해져 식물이 땅 위로 올라오게 되면서부터 육상 환경에 적응하기 위해 표면을 큐티클로 덮어 기공으로 기체교환을 하게 되고(이끼류), 관다발이 발달되고(양치류), 종자로 번식하는 방법을 터득하게 되는(겉씨식물, 속씨식물)등의 진화과정을 통해 현재의 다양한 식물들이 존재하게 되었습니다.",
+     "picture1" : "images/content3/nature10-1.jpg", 
+     "picture2" : "images/content3/nature10-2.jpg",
+     "picture3" : "images/content3/nature10-3.jpg",
+     "subject1" : "이끼류",
+     "subject2" : "양치류",
+     "subject3" : "겉씨식물"
+   },
+    { 
+     "title" : "재미있는 이름을 가진 식물" ,
+     "text1" : "우리나라 식물이름은 대부분 이미 오래 전부터 민중에 의해 붙여져 불리워 왔던 것입니다. 그 중 특히 사람이나 동물을 지칭하는 이름의 식물들이 있는데, 이는 대부분이 생긴 모양이나 냄새 또는 서식지 환경과 밀접한 관계가 있는 경우가 많습니다. 식물을 관찰하면서 식물 이름을 맞춰보세요.",
+     "picture1" : "images/content3/nature11-1.jpg", 
+     "picture2" : "images/content3/nature11-2.jpg",
+     "picture3" : "images/content3/nature11-3.jpg",
+     "subject1" : "거북꼬리",
+     "subject2" : "다람쥐꼬리",
+     "subject3" : "산꿩의 다리"
+   },
+    { 
+     "title" : "참나무의 세계" ,
+     "text1" : "이 땅에 살고 있는 수많은 종류의 나무들 중에 유독 “참”이라는 접두사가 붙은 나무, 참나무. 이는 나무들 중에서 유일한 “진짜 나무”이자 “참 좋은 나무“로서 인식되어 왔다는 뜻입니다. 그러나 우리에게 익숙한 나무 이름인 “참나무”란 나무가 없다는 사실을 아는 사람은 많지 않습니다. 우리나라 참나무류의 기본종인 갈참나무, 졸참나무, 굴참나무, 신갈나무, 떡갈나무, 상수리나무에 대해 알아 볼 수 있습니다.",
+     "picture1" : "images/content3/nature12-1.jpg", 
+     "picture2" : "images/content3/nature12-2.jpg",
+     "picture3" : "images/content3/nature12-3.jpg",
+     "subject1" : "졸참나무",
+     "subject2" : "상수리나무",
+     "subject3" : "신갈나무"
+   },
+    { 
+     "title" : "속씨 식물의 다양성" ,
+     "text1" : "속씨식물(피자식물)은 종자로 번식하는 식물 중 가장 발달한 형태의 식물로 씨가 씨방으로 감싸여 있는 형태의 식물입니다. 속씨식물은 전통적으로 쌍떡잎식물과 외떡잎식물로 구분 되어 왔습니다.",
+     "picture1" : "images/content3/nature13-1.jpg", 
+     "picture2" : "images/content3/nature13-2.jpg",
+     "picture3" : "images/content3/nature13-3.jpg",
+     "subject1" : "쌍떡잎 식물",
+     "subject2" : "쌍떡잎 식물",
+     "subject3" : "외떡잎 식물"
+   }
+]
+}

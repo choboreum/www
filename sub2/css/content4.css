@@ -1,0 +1,32 @@
+#content .title_area h2{margin-bottom: 0}
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700}
+#content .content_area p:first-child{font-size: 20px; margin-bottom: 150px; font-family: 'Nanum Myeongjo', serif; text-align: center}
+#content .content_area .infobox::after{content: ''; display: block; width: 2000px; height: 500px; position: absolute; left: 50%; margin-left: -1000px; top: 1400px; background: #eee; z-index: -99;}
+#content .content_area #map{width: 1200px; height: 600px; border: 1px solid #ccc; position: relative; overflow: hidden; left: 50%; margin: 0 0 60px -600px; z-index: 1}
+
+#content .content_area .info{overflow: hidden}
+#content .content_area .info dl{width: 550px; float: left; position: relative; border-bottom: 1px solid #ccc; padding: 40px 0}
+#content .content_area .info dt{float: left; font-weight: 700; margin-right: 20px; font-size: 20px}
+#content .content_area .info dd{overflow: hidden}
+
+#content .content_area section{margin: 60px 0}
+#content .content_area dt{font-weight: 700}
+#content .content_area dt img{float: left; width: 70px; height: 70px; background-size: cover; margin: 10px 30px 0 0}
+
+#content .content_area .subway dl,#content .content_area .bus dl{margin: 30px; font-weight: 400; font-size: 16px; overflow: hidden}
+#content .content_area .subway dl:nth-child(2) dt,#content .content_area .bus dl:last-child dt{color: green}
+#content .content_area .subway dl:last-child dt{color: orange}
+#content .content_area .subway dd:last-of-type{margin-left: 90px}
+
+#content .content_area .bus dl:nth-child(2) dt{color: navy}
+#content .content_area .bus dt:first-child img{border-radius: 35px}
+
+#content .content_area table{width: 100%; font-size: 16px; margin: 40px 0 10px}
+#content .content_area table thead{background: #eee}
+#content .content_area table th,#content .content_area table td{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 15px 0; text-align: center}
+#content .content_area table .line{border-left: 1px solid #ccc; border-right: 1px solid #ccc}
+#content .content_area table .line2{border-left: 1px solid #ccc}
+#content .content_area table td{font-weight: 400}
+
+#content .content_area .parking li{font-size: 16px; margin-left: 20px}
+#content .content_area .parking li::before{content: ''; width: 4px; height: 4px; border-radius: 2px; display: block; background: #333; position: relative; left: -15px; top: 20px}

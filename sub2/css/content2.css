@@ -1,0 +1,15 @@
+#content .content_area section{overflow: hidden}
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 28px; font-weight: 700; margin: 0 0 70px 50px; color: rgb(150,180,95)}
+#content .content_area h3::before{content: ''; display: block; width: 15px; height: 2px; background: rgb(150,180,95); position: relative; left: -40px; top: 20px}
+#content .content_area div{clear: both; border: 1px solid rgb(150,180,95); padding: 30px 30px}
+#content .content_area section div li{margin-left: 10px}
+#content .content_area section div li span{font-weight: 700}
+#content .content_area section div li::before{content: ''; width: 4px; height: 4px; border-radius: 2px; display: block; background: #333; position: relative; left: -15px; top: 20px}
+
+
+#content .content_area section .image{overflow: hidden}
+#content .content_area section .image img{overflow: hidden}
+#content .content_area section .image li{float: left; margin: 0 100px 100px 0}
+#content .content_area section .image li:last-child{margin-right: 0}
+#content .content_area section .image li img{border-radius: 150px}
+#content .content_area section:first-child div{margin-bottom: 150px}

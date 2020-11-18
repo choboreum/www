@@ -1,0 +1,9 @@
+#wrap #content{width: 640px}
+.memberForm .idBox { background: #ddd; height: 77px; padding-left: 30px; vertical-align: middle; position: relative; width: 635px}
+.memberForm .idBox p { font-size: 20px; line-height: 73px; }
+.memberForm .idBox span { position: absolute; top: 10px; right: 15px; font-size: 12px; color: red}
+.memberForm .nameBox input, .memberForm .telBox input, .memberForm .mailBox input { color: #777}
+
+.subMit input { padding-left: 0px; width: 680px; height: 90px; font-size: 18px; font-weight: 700; cursor: pointer}
+.subMit input[type="reset"]{ background: url(../../common/images/login_btn_r.png) no-repeat; }
+.subMit input[type="reset"]{ background-size: 680px 100%; }

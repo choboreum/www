@@ -1,0 +1,18 @@
+#content .content_area .contlist{display: none} 
+#content .content_area .news{overflow: hidden; position: relative; border-top: 2px solid #ccc}
+#content .content_area .news:last-of-type{border-bottom: 2px solid #ccc}
+#content .content_area .news li{float: left; padding: 50px 0; margin-left: 50px}
+#content .content_area .news li img{width: 200px; outline: 1px solid #ccc; outline-offset: -1px}
+#content .content_area .news .down{display: block; position: absolute; right: 30px; bottom: 60px; border: 1px solid #ccc; padding: 5px 20px; border-radius: 10px; font-size: 16px;color: #999}
+#content .content_area .news .down:hover{color: #333; border: 1px solid #333}
+#content .content_area .news .down i{margin-left: 10px}
+
+#content .content_area .news dl{margin: 20px 0}
+#content .content_area .news dt{position: absolute; left: 40px; bottom: 50px; font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; color: #fff; background: rgb(150,180,95); padding: 5px 0; border-radius: 5px; text-align: center; width: 220px}
+#content .content_area .news dd span{font-size: 20px; font-weight: 700; color: darkblue; margin-right: 20px}
+
+#content .content_area .page{overflow: hidden; width: 200px ;margin: 100px 0 0 -100px; position: relative; left: 55%}
+#content .content_area .page .on{color: #333; font-weight: 700; letter-spacing: -1px}
+#content .content_area .page ul li{float: left; width: 30px; height: 30px; margin-right: 10px}
+#content .content_area .page ul li a,#content .content_area .page ul li i{font-size: 14px; color: #999}
+#content .content_area .page ul li a:hover{color: #333; font-weight: 700; letter-spacing: -1px}

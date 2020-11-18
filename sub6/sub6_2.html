@@ -1,0 +1,51 @@
+<?
+	session_start(); 
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);    
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서대문자연사박물관-묻고 답하기</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->   
+</head>
+
+<body>
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=2; 
+    include "common/sub_nav.html"; 
+?>            
+<!-- 본문콘텐츠영역 -->
+        <article id="content">
+                <div class="title_area">
+                    <div class="line_map">
+                        <span>HOME</span>&gt;<span>커뮤니티</span>&gt;<strong>묻고 답하기</strong>
+                    </div>
+                    <h2>묻고 답하기</h2>
+                    <p>묻고답하기는 고객님의 소중한 의견을 듣는 곳입니다.<br>광고성 게시물, 욕설, 저속한 표현의 글은 삭제될 수 있으니 참고하시기 바랍니다.</p>
+                </div>
+
+                <div class="content_area">
+                 (게시판)
+                </div>     
+
+            
+        </article>
+        
+<? include "../common/sub_foot.html" ?>
+    
+</body>
+</html>

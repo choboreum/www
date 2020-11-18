@@ -1,0 +1,132 @@
+<?
+	session_start(); 
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);    
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서대문자연사박물관-관람안내</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->   
+</head>
+
+<body>
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=1; 
+    include "common/sub_nav.html"; 
+?>   
+
+        
+<!-- 본문콘텐츠영역 -->
+        <article id="content">
+                <div class="title_area">
+                    <div class="line_map">
+                        <span>HOME</span>&gt;<span>이용안내</span>&gt;<strong>관람안내</strong>
+                    </div>
+                    <h2>관람안내</h2>
+
+                </div>
+
+                <div class="content_area">
+                    <section>
+                        <h3>관람정보</h3>
+                        <dl>
+                            <dt>관람시간</dt>
+                            <dd>평일 - 09:00 ~ 18:00<br>토요일 - 09:00 ~ 19:00<br><span>* 매표 및 입장마감은 1시간전 입니다.</span></dd>
+                        </dl>
+                        <dl>   
+                            <dt>휴관안내</dt>
+                            <dd>매주 월요일과 1월 1일,<br>설날/추석 당일날 입니다.<br><span>* 월요일이 공휴일이면 다음날 휴관합니다.</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>문화의 날</dt>
+                            <dd>매월 마지막주 수요일은<br>'문화가 있는 날'입니다.<br><span>* 관람료 20% 할인(중복할인 불가)</span></dd>
+                        </dl>
+                    </section>
+                    
+                    <section>
+                        <h3>관람료</h3>
+                        <table>
+                           <caption class="hidden">관람료 안내 : 구분, 금액, 비고로 나타낸 표</caption>
+                           <thead>
+                                <tr class="colgroup"> 
+                                    <th colspan="2" rowspan="2" scope="col">구분</th>
+                                    <th colspan="2" scope="col">금액</th>
+                                    <th rowspan="2" scope="col">비고</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">개인</th>
+                                    <th scope="col">단체(20명이상)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th colspan="2" scope="row">일반</th>
+                                    <td>2,000원</td>
+                                    <td>1,800원</td>
+                                    <td>20~64세</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2" scope="row">청소년</th>
+                                    <td>1,000원</td>
+                                    <td>900원</td>
+                                    <td>5~19세</td>
+                                </tr>
+                                 <tr>
+                                    <th colspan="2" scope="row">영유아, 노인/ 장애인</th>
+                                    <td>무료</td>
+                                    <td>무료</td>
+                                    <td>4세 이하 및 65세 이상/<br>장애인등록증을 소지한 사람<br>(장애정도가 심한 장애인의 경우에는<br>동행하는 보호자 1명 포함)</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" scope="row">서대문구민</th>
+                                    <th scope="row">청소년</th>
+                                    <td>500원</td>
+                                    <td>할인없음</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">일반</th>
+                                    <td>1,000원</td>
+                                    <td>할인없음</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>    
+                        </table>
+                        <p>* 단체관람은 서대문자연사박물관으로 연락주시기 바랍니다.</p>
+                    </section>
+                    
+                    <section>
+                        <h3>관람시 유의사항</h3>
+                        <ul>
+                            <li><img src="images/content1/pet.PNG" alt=""><p><strong>음식물 반입</strong>과 안내견 이외의 <strong>애완동물의 출입은 금지</strong>되어 있습니다.</p></li>
+                            <li><img src="images/content1/bike.PNG" alt=""><p><strong>자전거, 퀵보드, 인라인스케이트, 바퀴달린 신발, 모든 승용완구 (유아용 자전거-유모차형 자전거), 푸쉬카, 왜건 (짐수레),풍선 등</strong>을 지참하고 <strong>입장하실 수 없습니다.</strong></p></li>
+                            <li><img src="images/content1/kids.PNG" alt=""><p>어린이를 동반한 관람객께서는 전시장 내에서 <strong>어린이들이 떠들거나 뛰어다니지 않도록 지도하여 주십시오.</strong></p></li>
+                            <li><img src="images/content1/hand.PNG" alt=""><p><strong>전시물에 손을 대거나 올라가는 등의 손상을 입힐 수 있는 행위는 절대 삼가</strong>해 주십시오.</p></li>
+                            <li><img src="images/content1/camera.PNG" alt=""><p>플래시를 이용하지 않는 촬영은 제한적으로 허용하고 있으나, <strong>플래시/삼각대, 셀카봉 등을 이용한 촬영과 상업적 용도를 위한 촬영은 금지</strong>되어 있습니다. </p></li>
+                            <li><img src="images/content1/shield.PNG" alt=""><p><strong>전시실 안의 질서를 문란하게 할 우려가 있다고 인정</strong>되거나 <strong>다른 사람들의 관람에 지장을 초래할 우려</strong>가 있다고 인정되는 자에 한해 <strong>관람을 거절하거나 퇴출</strong>할 수 있습니다.</p></li>
+                            <li><img src="images/content1/damage.PNG" alt=""><p>관람객이 <strong>전시물을 파괴하거나 훼손하였을 경우에는 이에 대한 책임을 지고 변상</strong>해야 합니다.</p></li>
+                        </ul>
+                    </section>
+                </div> 
+
+            
+        </article>
+        
+<? include "../common/sub_foot.html" ?>
+   
+</body>
+</html>

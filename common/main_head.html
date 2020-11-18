@@ -1,0 +1,94 @@
+<div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+    
+    <div id="wrap">
+        <header id="headerArea">
+           <div class="header_inner">
+              <div class="top_menu">
+                    <ul>
+                      <?
+                        if(!$userid) 
+                        {
+                      ?>
+                       <li><a href="login/login_form.php">로그인</a></li>
+                       <li><a href="member/join.html">회원가입</a></li>
+                      <?
+                        }
+                        else 
+                        {
+                      ?> 
+                       <li class="name"><i class="fas fa-user"></i> <?=$usernick?></li>
+                       <li><a href="login/logout.php">로그아웃</a></li>
+                       <li><a href="login/member_form_modify.php">정보수정</a></li>
+                       <?
+                        }
+                       ?>
+                    </ul>
+               </div>
+               <div class="header_menu">
+                    <h1 class="logo">
+                        <a href="index.html">서대문자연사박물관</a>
+                    </h1>
+                    <nav id="gnb">
+                        <h2 class="hidden">글로벌네비게이션영역</h2>
+                        <ul class="dropdownmenu">
+                            <li class="m1 menu">
+                                <h3><a class="depth1" href="sub1/sub1_1.html">기관소개</a></h3>
+                                <ul>
+                                    <li><a href="sub1/sub1_1.html">인사말</a></li>
+                                    <li><a href="sub1/sub1_2.html">박물관소개</a></li>
+                                    <li><a href="sub1/sub1_3.html">연혁</a></li>
+                                </ul>
+                            </li>
+                            <li class="m2 menu">
+                                <h3><a class="depth1" href="sub2/sub2_1.html">이용안내</a></h3>
+                                <ul>
+                                    <li><a href="sub2/sub2_1.html">관람안내</a></li>
+                                    <li><a href="sub2/sub2_2.html">관람도우미</a></li>
+                                    <li><a href="sub2/sub2_3.html">시설안내</a></li>
+                                    <li><a href="sub2/sub2_4.html">찾아오시는 길</a></li>
+                                </ul>
+                            </li>
+                            <li class="m3 menu">
+                                <h3><a class="depth1" href="sub3/sub3_1.html">전시소개</a></h3>
+                                <ul>
+                                    <li><a href="sub3/sub3_1.html">지구환경관</a></li>
+                                    <li><a href="sub3/sub3_2.html">생명진화관</a></li>
+                                    <li><a href="sub3/sub3_3.html">인간과 자연관</a></li>
+                                    <li><a href="sub3/sub3_4.html">중앙홀</a></li>
+                                </ul>
+                            </li>
+                            <li class="m4 menu">
+                                <h3><a class="depth1" href="sub4/sub4_1.html">프로그램</a></h3>
+                                <ul>
+                                    <li><a href="sub4/sub4_1.html">프로그램소개</a></li>
+                                    <li><a href="sub4/sub4_2.html">단체교육안내</a></li>
+                                    <li><a href="sub4/sub4_3.html">교육신청</a></li>
+                                </ul>
+                            </li>
+                            <li class="m5 menu">
+                                <h3><a class="depth1" href="news/list.php">소식/홍보</a></h3>
+                                <ul>
+                                    <li><a href="news/list.php">새소식</a></li>
+                                    <li><a href="sub5/sub5_2.html">소식지</a></li>
+                                    <li><a href="sub5/sub5_3.html">정보공개</a></li>
+                                </ul>
+                            </li>
+                            <li class="m6 menu">
+                                <h3><a class="depth1" href="sub6/sub6_1.html">커뮤니티</a></h3>
+                                <ul>
+                                    <li><a href="sub6/sub6_1.html">자주 묻는 질문</a></li>
+                                    <li><a href="free/list.php">묻고 답하기</a></li>
+                                    <li><a href="sub6/sub6_3.html">자원봉사</a></li>
+                                    <li><a href="sub6/sub6_4.html">표본기증</a></li>
+                                </ul>
+                            </li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+       

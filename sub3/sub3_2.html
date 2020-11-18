@@ -1,0 +1,81 @@
+<?
+	session_start(); 
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);    
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서대문자연사박물관-생명진화관</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->   
+</head>
+
+<body>
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=2; 
+    include "common/sub_nav.html"; 
+?>     
+<!-- 본문콘텐츠영역 -->
+        <article id="content">
+                <div class="title_area">
+                    <div class="line_map">
+                        <span>HOME</span>&gt;<span>전시소개</span>&gt;<strong>생명진화관</strong>
+                    </div>
+                    <h2>생명진화관</h2>
+                    <p>서대문자연사박물관 전시실은 총 3개의 관으로 이루어져 있으며,<br>태초의 자연과 대자연의 역사 등을 만나보실 수 있습니다.</p>
+                </div>
+
+                <div class="content_area">
+                   <div class="mainbox">
+                       <div class="imglist">
+                           <img class="imgs" src="images/content2/life1.png" alt="2층 생명진화관 지도">
+                       </div>
+                        <div class="list">
+                            <p><i class="fas fa-paw"></i> 생명진화관</p>
+                            <ul class="tabs pics">
+                                <li><a class="tab tab1 pic" href="javascript:void(0);">1. 생명의 기원과 탄생</a></li>
+                                <li><a class="tab tab2 pic" href="javascript:void(0);">2. 고생대-생명의 진화와 출발</a></li>
+                                <li><a class="tab tab3 pic" href="javascript:void(0);">3. 중생대-공룡의 세계</a></li>
+                                <li><a class="tab tab4 pic" href="javascript:void(0);">4. 신생대-포유류 전성기</a></li>
+                                <li><a class="tab tab5 pic" href="javascript:void(0);">5. 해양포유류</a></li>
+                                <li><a class="tab tab6 pic" href="javascript:void(0);">6. 인류의 출현</a></li>
+                                <li><a class="tab tab7 pic" href="javascript:void(0);">7. 육상생명의 다양성</a></li>
+                                <li><a class="tab tab8 pic" href="javascript:void(0);">8. 해양생물의 다양성</a></li>
+                                <li><a class="tab tab9 pic" href="javascript:void(0);">9. 한국의 상어</a></li>
+                                <li><a class="tab tab10 pic" href="javascript:void(0);">10. 살아있는 해양생물</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <section class="contlist">
+                        <h3>생명의 기원과 탄생</h3>
+                        <p>생명이 언제 어떻게 지구상에 나타났는가? 이것은 모두가 알고자 하는 수수께끼일 뿐만 아니라 철학이나 신학의 과제이기도 한 매우 어려운 문제입니다. 오늘날 생명의 기원에 관한 과학자들의 견해는 생물이 무생물에서 진화, 발전해 왔다는 것입니다. 40억 년 전 이미 지구상에는 바다와 대기가 있었습니다. 과학자들은 무생물에서 생물이 진화되는 과정은 대략 그 무렵부터 시작되었다고 봅니다. 생물학적 진화 가운데 비교적 그 역사가 잘 해명되어 있는 것은 6억 년 전 이후입니다.</p>     
+                         <iframe width="560" height="315" title="생명의 기원과 탄생" src="https://www.youtube.com/embed/54cgCBhUt0w" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                    
+                    <div id="tablist"></div>
+
+                </div>     
+
+            
+        </article>
+        
+<? include "../common/sub_foot.html" ?>
+<script src="common/js/tab.js"></script>            
+<script src="js/tab2.js"></script>            
+<script src="js/data2-json.js"></script>       
+</body>
+</html>
